@@ -1,0 +1,414 @@
+
+.nav {
+  margin: 0px 105px;
+}
+.carousel-item {
+  height: 32rem;
+  background: #171ac03d;
+  position: relative;
+  padding: 0px 150px;
+  
+}
+.container {
+  background-image: url(../Assets/Pic1.png);
+  background-repeat: no-repeat;
+  background-size: 1100px;
+  background-position: right;
+  padding: 200px 40px;
+  margin: 5px 0px;
+  position: relative;
+}
+
+.container h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 28px;
+  font-weight: 900;
+  color: #0f4bf18f;
+  
+}
+
+/*
+.info p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
+    font-weight:500;
+    color:black;
+}
+*/
+
+button {
+  position: relative;
+  margin: 10px 0px;
+}
+
+img {
+  position: relative;
+  width: 550px;
+  height: 400px;
+  float: right;
+}
+
+h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #4a5085;
+  padding: 150px 0px 0px 10px;
+  margin: 85px;
+  position: relative;
+  float: left;
+}
+
+p {
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-size: 16px;
+  color: #222224;
+  display: inline;
+  padding: 0px 100px;
+  position: relative;
+  float: left;
+}
+
+span {
+  font-family: "Arial Narrow Bold", sans-serif;
+  font-size: 22px;
+  color: #222224;
+  display: inline;
+  padding: 10px 100px;
+  position: relative;
+  float: left;
+}
+
+.second-page {
+  display: block;
+  position: absolute;
+  padding: 500px 100px;
+}
+.second-page h3 {
+  color: blueviolet;
+}
+
+.second-page span {
+  position: absolute;
+  padding: 2px;
+  font-size: 18px;
+}
+.second-page a {
+  position: absolute;
+  padding: 110px 2px;
+}
+.two {
+  display: block;
+  position: relative;
+  padding: 500px 550px;
+}
+.two h3 {
+  color: rgb(38, 179, 33);
+}
+.two span {
+  position: absolute;
+  padding: 2px;
+  font-size: 18px;
+}
+.two a {
+  position: absolute;
+  padding: 110px 2px;
+}
+.three {
+  display: inline;
+  position: relative;
+  padding: 500px 550px;
+  left: 70%;
+  bottom: 565px;
+}
+.three h3 {
+  color: rgb(65, 125, 214);
+}
+.three span {
+  position: absolute;
+  padding: 2px;
+  font-size: 18px;
+}
+.three a {
+  position: absolute;
+  padding: 110px 2px;
+}
+.four {
+  display: inline;
+  position: relative;
+  padding: 500px 550px;
+  left: 7.5%;
+  bottom: 400px;
+}
+.four h3 {
+  color: rgb(184, 37, 56);
+}
+.four span {
+  position: absolute;
+  padding: 2px;
+  font-size: 18px;
+}
+.four a {
+  position: absolute;
+  padding: 110px 2px;
+}
+.five {
+  display: inline;
+  position: relative;
+  padding: 500px 550px;
+  left: 41%;
+  bottom: 465px;
+}
+.five h3 {
+  color: rgb(179, 37, 184);
+}
+.five span {
+  position: absolute;
+  padding: 2px;
+  font-size: 18px;
+}
+.five a {
+  position: absolute;
+  padding: 110px 2px;
+}
+.six {
+  display: inline;
+  position: relative;
+  padding: 500px 550px;
+  left: 70%;
+  bottom: 530px;
+}
+.six h3 {
+  color: rgb(37, 184, 147);
+}
+.six span {
+  position: absolute;
+  padding: 2px;
+  font-size: 18px;
+}
+.six a {
+  position: absolute;
+  padding: 110px 2px;
+}
+.main {
+  /*background-image: url(../Assets/Pic3.png);
+  background-repeat: no-repeat;
+  background-size: 700px;*/
+  background-position: right;
+  padding: 500px 10px;
+  position: relative;
+  bottom: 870px;
+  right: 5%;
+ 
+}
+.img-three{
+    background-color: rgb(70, 11, 97);
+    width: 1403px;
+    height: 450px;  
+}
+.img-three img{
+  position: relative;
+  display: inline;
+  top:10%;
+}
+.img-three h1{
+  position: relative;
+  left: 10%;
+  top: 120px;
+  color: aliceblue;
+  font-weight: 800;
+  text-align: justify;
+  font-size: 50px;
+}
+.img-three button{
+  position: relative;
+  left:25%;
+  top:150px;
+}
+.repeat{
+  background-color: rgba(105, 109, 112, .2);
+  width: 1403px;
+  height: 550px ;
+}
+.first-para {
+  display: block;
+  position: absolute;
+  padding: 100px 160px;
+}
+.first-para h3 {
+  color: rgb(108, 116, 196);
+}
+
+.first-para span {
+  position: absolute;
+  padding: 2px;
+  font-size: 18px;
+}
+.first-para a {
+  position: absolute;
+  padding: 110px 2px;
+  color: rgb(43, 31, 212);
+}
+.two-para {
+  display: block;
+  position: relative;
+  padding: 500px 550px;
+  bottom: 400px;
+  left: 4.2%;
+}
+.two-para h3 {
+  color: rgb(108, 116, 196);
+}
+.two-para span {
+  position: absolute;
+  padding: 2px;
+  font-size: 18px;
+}
+.two-para a {
+  position: absolute;
+  padding: 110px 2px;
+  color: rgb(43, 31, 212);
+}
+.three-para {
+  display: inline;
+  position: relative;
+  padding: 500px 550px;
+  left: 71%;
+  bottom: 966px;
+}
+.three-para h3 {
+  color:  rgb(108, 116, 196);
+}
+.three-para span {
+  position: absolute;
+  padding: 2px;
+  font-size: 18px;
+}
+.three-para a {
+  position: absolute;
+  padding: 110px 2px;
+  color: rgb(43, 31, 212);
+}
+.four-para {
+  display: inline;
+  position: relative;
+  padding: 500px 550px;
+  left: 11.5%;
+  bottom: 800px;
+}
+.four-para h3 {
+  color:  rgb(108, 116, 196);
+}
+.four-para span {
+  position: absolute;
+  padding: 2px;
+  font-size: 18px;
+}
+.four-para a {
+  position: absolute;
+  padding: 110px 2px;
+  color: rgb(43, 31, 212);
+}
+.five-para {
+  display: inline;
+  position: relative;
+  padding: 500px 550px;
+  left: 43.5%;
+  bottom: 865px;
+}
+.five-para h3 {
+  color:  rgb(108, 116, 196);
+}
+.five-para span {
+  position: absolute;
+  padding: 2px;
+  font-size: 18px;
+}
+.five-para a {
+  position: absolute;
+  padding: 110px 2px;
+  color: rgb(43, 31, 212);
+}
+.six-para {
+  display: inline;
+  position: relative;
+  padding: 500px 550px;
+  left: 71%;
+  bottom: 930px;
+}
+.six-para h3 {
+  color:  rgb(108, 116, 196);
+}
+.six-para span {
+  position: absolute;
+  padding: 2px;
+  font-size: 18px;
+}
+.six-para a {
+  position: absolute;
+  padding: 110px 2px;
+  color: rgb(43, 31, 212);
+}
+.fourth-img img{
+  width: 110%;
+  height: 530px;
+  position: relative;
+  left: 5.6%;
+}
+.fourth-img h1{
+  position: relative;
+  bottom:510px;
+  left:13%;
+  color:  rgb(70, 11, 97);
+  font-weight: 700;
+}
+.fourth-img h2{
+  position: relative;
+  bottom:655px;
+  left:6.2%;
+  color:  rgb(15, 14, 15);
+  font-size: 43px;
+  font-weight: 600;
+}
+
+.carousel-item-two{
+  height: 20rem;
+  width: 600px;
+  position: relative;
+  bottom: 440px;
+  left: 30%;
+  background: rgba(141, 140, 140,0.5);
+  position: relative;
+  background-image: url(../Assets/Pic1.png);
+  background-size: 850px;
+  background-position: right;
+
+}
+.nav-two{
+  position: relative;
+  bottom: 350px;
+  left: 27%;
+  padding: 10px;
+}
+.footer {
+  position: relative;
+  left: 38%;
+  bottom: 1700px;
+}
+.footer h3{
+  font-size: 50px;
+  font-weight: 900;
+  color: rgb(74, 74, 235);
+  position: relative;
+  padding: 10px;
+  text-decoration: none;
+  right:135px;
+}
+.second-footer img{
+  position: relative;
+  right: 540px;
+  width: 1300px;
+  height: 700px;
+  top:10px;
+}
+
